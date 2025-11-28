@@ -25,7 +25,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - target
+            - backend-build
 
   frontend-build:
     executor: node-executor
